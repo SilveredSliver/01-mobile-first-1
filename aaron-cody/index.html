@@ -34,19 +34,20 @@
     -->
 
     <section class="heading-group-h1">
-      <h1>
+        <span class="icon-menu" ></span>
+      <h1 class="blog-title">
         Kilovolt Blog!
       </h1>
-      <h2>The shocking power of static pages</h2>
+      <h2 class="blog-subtitle">The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
       <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-      <span class="icon-menu" ></span>
+      <!--moved it to a different  <section class="heading-group-h1"> container-->
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+        <li class="tab"><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
       
     </nav>
@@ -55,10 +56,10 @@
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bacon">
           <header>
-            <h1>Bacon Ipsum</h1>
+            <h1 class="blog-title">Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
-              By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
+              By <address><a class="link-name" href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>
@@ -66,9 +67,9 @@
       </article>
       <article class="clearfix" data-category="baseball">
           <header>
-            <h1>Baseball Ipsum</h1>
+            <h1 class="blog-title">Baseball Ipsum</h1>
             <div class="byline">
-              By <address><a href="http://www.baseball-reference.com/players/h/hernafe02.shtml">Felix Hernandez</a></address>
+              By <address><a class="link-name" href="http://www.baseball-reference.com/players/h/hernafe02.shtml">Felix Hernandez</a></address>
               published <time pubdate="" datetime="2015-11-04" title="2015-11-04">about 719 days ago</time>
             </div>
           </header>
@@ -76,9 +77,9 @@
       </article>
       <article class="clearfix" data-category="cat">
           <header>
-            <h1>Cat Ipsum</h1>
+            <h1 class="blog-title">Cat Ipsum</h1>
             <div class="byline">
-              By <address><a href="https://http.cat/">Meow Meow</a></address>
+              By <address><a class="link-name" href="https://http.cat/">Meow Meow</a></address>
               published <time pubdate="" datetime="2015-11-03" title="2015-11-03">about 720 days ago</time>
             </div>
           </header>

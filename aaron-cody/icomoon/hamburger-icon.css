@@ -7,9 +7,14 @@
 
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .icon-menu {
     display: block;
+    font-size: 3em;
+    /* float: right; */
+    position: relative;
+    margin-left: 100%;
+   
   }
 }
 
@@ -24,6 +29,7 @@
     url('fonts/icomoon.svg?2ypg2p#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  
 }
 
 [class^="icon-"], [class*=" icon-"] {
